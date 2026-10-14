@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="656" height="677" viewBox="300 264 656 677" role="img" aria-labelledby="title description">
+  <title id="title">RISE-X symbol</title>
+  <desc id="description">Vector symbol reconstructed from the supplied reference. Transparent background. No wordmark.</desc>
+<g id="symbol">
+  <path id="r-symbol" fill="#022B66" d="M359.13 318.62H595.43C709.46 318.62 782.80 407.63 782.80 500.50C782.80 600.66 705.83 658.94 656.55 670.01L850.42 890.62H722.94L457.00 590.91H598.17C662.44 590.91 692.30 539.11 692.30 500.50C692.30 460.87 660.22 410.86 597.98 410.86H453.28V890.62H359.13Z"/>
+  <path id="blue-flight-lower" fill="#0159FD" d="M773.18 413.38L816.74 376.79L841.52 397.72L792.33 471.12C788.73 450.62 782.79 431.30 773.18 413.38Z"/>
+  <path id="blue-flight-tip" fill="#0159FD" d="M824.46 369.98L896.56 313.52L846.96 389.28Z"/>
+</g>
+</svg>

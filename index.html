@@ -1,0 +1,201 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#173f64">
+<title>RISE 2027 | International Workshop on Reliable Intelligent Software Engineering</title>
+<meta name="description" content="RISE 2027: the proposed International Workshop on Reliable Intelligent Software Engineering at FSE 2027, Shenzhen, China. Topics, call for papers, dates, program, and committees.">
+<meta property="og:title" content="RISE 2027 — Reliable Intelligent Software Engineering">
+<meta property="og:description" content="Proposed workshop at FSE 2027 · Shenzhen, China · July 2027. Call for contributions, important dates, program, and organization.">
+<meta property="og:type" content="website">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="styles.css">
+<script src="script.js" defer></script>
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to main content</a>
+<header class="topbar">
+  <div class="container nav-container">
+    <a href="#home" class="site-name">RISE <span>2027</span></a>
+    <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="navigation">Menu <span aria-hidden="true">☰</span></button>
+    <nav id="navigation" aria-label="Main navigation">
+      <a href="#home" class="active">Home</a>
+      <a href="#cfp">Call for Papers</a>
+      <a href="#dates">Important Dates</a>
+      <a href="#program">Program</a>
+      <a href="#organizers">Organizers</a>
+      <a href="#committee">Committee</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </div>
+</header>
+<section id="home" class="conference-banner" aria-labelledby="page-title">
+  <img class="banner-photo" src="images/shenzhen-panorama.jpg" alt="Panoramic view of the Futian skyline in Shenzhen" width="4899" height="1647" fetchpriority="high">
+  <div class="banner-shade"></div>
+  <div class="container banner-content">
+    <p class="conference-acronym">RISE 2027</p>
+    <h1 id="page-title">The 1st International Workshop on<br>Reliable Intelligent Software Engineering</h1>
+    <p class="conference-parent">Proposed in conjunction with <a href="https://conf.researchr.org/home/fse-2027">FSE 2027</a></p>
+    <p class="conference-location">Shenzhen, China &nbsp; | &nbsp; July 2027 &nbsp; | &nbsp; One-day, in-person workshop</p>
+  </div>
+</section>
+<div class="status-strip"><div class="container"><strong>Workshop proposal:</strong> Pending FSE acceptance. The exact workshop date and submission system will be announced after confirmation.</div></div>
+<div class="container page-layout">
+  <main id="main" class="main-content">
+    <section id="welcome">
+      <h2>Welcome to RISE 2027</h2>
+      <p>The <strong>International Workshop on Reliable Intelligent Software Engineering (RISE)</strong> will bring together researchers and practitioners to study the reliability of software artifacts, development workflows, and engineering agents across the software lifecycle.</p>
+      <p>AI assistants and software agents support requirements analysis, implementation, testing, and maintenance, yet their outputs and workflows can fail in ways that are difficult to detect and reproduce. RISE connects techniques from these development stages through explicit failure models, independent evaluation, and practical assurance needs.</p>
+      <div class="research-question"><strong>Central question</strong><p>How can we establish, measure, and maintain reliability in AI-assisted and agentic software engineering?</p></div>
+      <p>The proposed first edition examines reliability as software, requirements, workflows, and agents change, including recursive self-improvement of software engineering agents. The software being developed need not itself contain AI. Short contribution pitches, a shared engineering scenario, facilitated working groups, and cross-group scrutiny of reliability claims will connect research and industrial practice.</p>
+    </section>
+
+    <section id="topics">
+      <h2>Topics of Interest</h2>
+      <p>We welcome contributions on the following topics. Each submission should connect its engineering setting to a reliability objective or failure mode and explain the evidence available or still needed.</p>
+      <ul>
+        <li><strong>Reliable requirements engineering and specification.</strong> Topics include AI-assisted requirements analysis, ambiguity resolution, specification generation, acceptance criteria, and traceability to implementation and validation.</li>
+        <li><strong>Reliable code generation and automated program repair.</strong> Correctness, repository-level edits, constraint satisfaction, repair overfitting, and regression prevention.</li>
+        <li><strong>Testing, verification, and validation of AI-generated software.</strong> Test generation, independent test oracles, static analysis, formal verification, and detection of correlated errors in generated code and tests.</li>
+        <li><strong>Dependable software engineering agents and multi-agent collaboration.</strong> Task planning, tool use, context management, handoff contracts, error propagation, failure recovery, and end-to-end workflow reliability.</li>
+        <li><strong>Human–AI collaboration and oversight in software engineering.</strong> Human review and intervention, trust calibration, responsibility allocation, and developer assessment of AI-generated recommendations.</li>
+        <li><strong>Reliability assurance during software evolution and maintenance.</strong> Change-impact analysis, regression assurance, invalidation of previous evidence, AI-assisted refactoring, and long-term maintenance.</li>
+        <li><strong>Security and privacy in AI-assisted software development.</strong> Insecure code generation, malicious inputs to development agents, sensitive-data leakage, dependency risks, and software supply-chain integrity.</li>
+        <li><strong>Reliability evaluation, benchmarks, and reproducibility.</strong> Metrics and benchmarks from real projects, stability across runs, generalization, failure conditions, and reproducible evaluation beyond single-task success.</li>
+        <li><strong>Industrial experience, empirical studies, and failure analysis.</strong> Deployment experience, field studies, incident analysis, negative results, and trade-offs among reliability, productivity, and validation cost.</li>
+        <li><strong>Reliable recursive self-improvement (RSI) of software engineering agents.</strong> Agents improving their own code, tools, strategies, or workflows, with validated successor versions conducting further improvement cycles. Topics include reliability objectives, independent evaluation, regression and behavioral drift detection, traceable versioning, and rollback.</li>
+      </ul>
+      <p>Submissions may address one or several topics. General AI applications and productivity-only evaluations must connect to a concrete reliability question in AI-assisted or agentic software engineering. Preliminary ideas, positions, and failure reports are welcome; completed solutions are not required.</p>
+    </section>
+
+    <section id="cfp">
+      <h2>Call for Papers <span class="section-tag">Planned</span></h2>
+      <p>RISE welcomes <strong>focused research, empirical investigations, early results, position papers, failure analyses, negative results, tools and demonstrations, and industrial experience</strong> on reliable intelligent software engineering. Contributions should connect their engineering setting to a reliability objective or failure mode and explain the evidence available or still needed.</p>
+      <h3>Contribution types</h3>
+      <div class="table-scroll"><table class="submission-table">
+        <thead><tr><th scope="col">Type</th><th scope="col">Length</th><th scope="col">Publication</th></tr></thead>
+        <tbody>
+          <tr><th scope="row">Research and experience paper</th><td>Up to <strong>8 pages</strong>, <strong>including references</strong></td><td>Planned FSE 2027 Companion Proceedings in the ACM Digital Library, subject to ACM/FSE requirements.</td></tr>
+          <tr><th scope="row">Short and position paper</th><td>Up to <strong>5 pages</strong>, <strong>including references</strong></td><td>Planned FSE 2027 Companion Proceedings in the ACM Digital Library, subject to ACM/FSE requirements.</td></tr>
+          <tr><th scope="row">Extended abstract</th><td>Up to <strong>2 pages</strong>, <strong>including references</strong></td><td>Planned FSE 2027 Companion Proceedings in the ACM Digital Library; explicitly classified as extended abstracts and APC-free.</td></tr>
+          <tr><th scope="row">Discussion statement</th><td><strong>1 page</strong></td><td>Non-archival. Shared only with the author's permission.</td></tr>
+        </tbody>
+      </table></div>
+      <p><strong>Research and experience papers</strong> present focused research, empirical investigations, or industrial experience with evidence appropriate to the claims. <strong>Short and position papers</strong> present early results, research positions, failure analyses, negative results, or tools and demonstrations. <strong>Extended abstracts</strong> present emerging ideas, research questions, demonstrations, or discussion contributions.</p>
+      <p>These are workshop contributions intended to stimulate research and discussion. Preliminary and conceptual work is welcome; position papers need not provide a complete implementation or large evaluation.</p>
+      <p><strong>Discussion statements</strong> offer a separate route for practitioners and emerging projects to bring a case or question without publishing a paper. Please remove confidential details.</p>
+      <h3>Submission guidelines</h3>
+      <p>Each submission should identify:</p>
+      <ol><li>The engineering setting.</li><li>The reliability objective or failure mode.</li><li>The evidence supplied or still needed.</li><li>The question or lesson to be discussed at the workshop.</li></ol>
+      <p>All archival formats will follow the ACM template specified in the finalized CFP in consultation with FSE. Optional artifacts must be shareable and clearly licensed; artifacts are not a prerequisite for acceptance. The submission system and formatting instructions will be published after workshop acceptance.</p>
+      <div class="information-box"><strong>Submission status:</strong> Not yet open. For questions about the scope or a potential contribution, contact <a href="mailto:dongyh@sjtu.edu.cn?subject=RISE%202027%20submission%20enquiry">dongyh@sjtu.edu.cn</a>.</div>
+      <h3>Review process</h3>
+      <p>All three archival formats will undergo <strong>double-anonymous review</strong>; manuscripts and linked review materials must be anonymized. Each submission will receive <strong>at least three reviews by non-conflicted PC members</strong>, followed by PC discussion. Review criteria are relevance, originality, clarity, technical soundness, evidence appropriate to the format and maturity of the work, and potential to stimulate discussion. Acceptance will follow these criteria, not a quota. Discussion statements will receive three brief PC assessments for relevance and discussion value.</p>
+      <p>Archival submissions must be <strong>original, unpublished, and not under concurrent review elsewhere</strong>. Conflicted reviewers will not access or discuss the affected submission. A non-conflicted organizer will manage the decision; if all organizers are conflicted, a designated non-conflicted senior PC member will handle it. The finalized CFP will specify conflicts and applicable publication policies.</p>
+      <h3>Publication and author participation</h3>
+      <p>Accepted contributions in all three archival formats are intended for the <strong>FSE 2027 Companion Proceedings in the ACM Digital Library</strong>, subject to workshop acceptance and ACM/FSE production requirements. Research and short papers will follow ACM Open coverage, applicable article processing charges (APCs), and available waivers.</p>
+      <p>The extended-abstract format satisfies <a href="https://conf.researchr.org/track/fse-2027/fse-2027-workshops">FSE 2027's requirement</a> to offer an explicitly APC-free option of at most five pages; RISE's extended abstracts are limited to two pages, including references. The CFP and proceedings metadata will identify this article type. A short paper is not APC-exempt solely because it is five pages or fewer. <strong>Registration fees are separate.</strong> Discussion statements will not appear in the proceedings.</p>
+      <p>At least one author of every proceedings contribution must register for the workshop. We will require an in-person presentation; FSE supports remote presentations only in emergencies. Attendance without a submission is also welcome, subject to registration and room capacity.</p>
+      <h3>Organizer submissions and ACM policies</h3>
+      <p>Under FSE and <a href="https://www2.sigsoft.org/policies/pcpolicy/">SIGSOFT policy</a>, organizers and their directly supervised students, postdocs, and employees may not submit papers to RISE. This restriction also applies to submitted discussion statements. It does not prevent attendance or participation in working sessions. Eligible PC members may submit with independent handling; in their PC role, they will have no access to confidential discussions or reviewer identities for their own submissions. They will receive normal author feedback.</p>
+      <p>Published ACM authors and their co-authors must comply with all <a href="https://www.acm.org/publications/policies/toc">ACM Publications Policies</a>, including the <a href="https://www.acm.org/publications/policies/research-involving-human-participants-and-subjects">Publications Policy on Research Involving Human Participants and Subjects</a>. The finalized call will include ACM's required policy notice and any further FSE production instructions.</p>
+    </section>
+
+    <section id="program">
+      <h2>Workshop Program <span class="section-tag">Tentative</span></h2>
+      <p>A full-day, in-person workshop is proposed. Approximately 65% of non-break time will be devoted to collaborative work and discussion. All session times below are in <strong>Shenzhen local time (UTC+8)</strong>.</p>
+      <div class="table-scroll"><table class="program-table">
+        <thead><tr><th scope="col">Time</th><th scope="col">Activity</th></tr></thead>
+        <tbody>
+          <tr><th scope="row">09:00–09:20</th><td>Welcome, shared question, case, and output template</td></tr>
+          <tr><th scope="row">09:20–09:55</th><td>Challenge talk and questions <span class="table-note">Speaker to be confirmed</span></td></tr>
+          <tr><th scope="row">09:55–10:55</th><td>Contribution pitches <span class="table-note">Planned: 10–12 contributions across all formats</span></td></tr>
+          <tr class="break"><th scope="row">10:55–11:10</th><td>Coffee break</td></tr>
+          <tr><th scope="row">11:10–12:10</th><td>Shared-case clinic: joint diagnosis of failures and missing evidence</td></tr>
+          <tr class="break"><th scope="row">12:10–13:10</th><td>Lunch</td></tr>
+          <tr><th scope="row">13:10–14:25</th><td>Working groups: develop and challenge reliability evidence</td></tr>
+          <tr class="break"><th scope="row">14:25–14:40</th><td>Coffee break</td></tr>
+          <tr><th scope="row">14:40–15:25</th><td>Cross-group review: exchange analyses and seek counterexamples</td></tr>
+          <tr><th scope="row">15:25–16:05</th><td>Group reports and unresolved disagreements</td></tr>
+          <tr><th scope="row">16:05–16:40</th><td>Research agenda: prioritize five questions and identify follow-up owners</td></tr>
+          <tr><th scope="row">16:40–17:00</th><td>Closing discussion and release arrangements</td></tr>
+        </tbody>
+      </table></div>
+      <p class="small-note">The final program, speaker, and workshop date will be announced after confirmation. Timing and duration will be coordinated with FSE based on submissions, registrations, and room allocation.</p>
+      <h3>Shared case and workshop outcomes</h3>
+      <p>An illustrative order-cancellation case will give participants a common starting point: a revised requirement demands exactly one refund and an audit record, but a stale test oracle checks only the order status. Groups will examine missing obligations, repeated refunds, and the evidence required across development handoffs. This is a constructed example, not a reported production incident or an established benchmark.</p>
+      <p>Groups of four to six will form around challenges emerging from accepted contributions. Each may adapt the shared case or analyze a contributed case, recording a reliability objective, failure mechanism, evidence, unresolved assumptions, and a proposed recheck or recovery action. Groups will exchange analyses to seek counterexamples.</p>
+      <p>A case package is planned for circulation two weeks before the workshop. Preparation will be optional, with no model subscription or live execution required; a printable version will be available. Intended outcomes are annotated cases, a reusable reliability-evidence template, and five prioritized research questions with evaluation tasks and volunteer follow-up owners. Materials are planned for release within 30 days, subject to contributor consent and appropriate licenses.</p>
+    </section>
+
+    <section id="organizers">
+      <h2>Organizing Committee</h2>
+      <div class="organizer-grid">
+        <article class="organizer"><a href="https://www.cs.sjtu.edu.cn/jiaoshiml/dongyihong.html"><img src="images/yihong-dong.jpg" alt="Yihong Dong" width="128" height="128" loading="lazy"><h3>Yihong Dong</h3></a><p>Shanghai Jiao Tong University</p><a class="organizer-email" href="mailto:dongyh@sjtu.edu.cn">dongyh@sjtu.edu.cn</a></article>
+        <article class="organizer"><a href="https://conf.researchr.org/profile/jiali4"><img src="images/jia-li.webp" alt="Jia Li, Wuhan University" width="128" height="128" loading="lazy"><h3>Jia Li</h3></a><p>Wuhan University</p><a class="organizer-email" href="mailto:jia.li@whu.edu.cn">jia.li@whu.edu.cn</a></article>
+        <article class="organizer"><a href="http://linyun.info"><img src="images/yun-lin.png" alt="Yun Lin" width="128" height="128" loading="lazy"><h3>Yun Lin</h3></a><p>Shanghai Jiao Tong University</p><a class="organizer-email" href="mailto:lin_yun@sjtu.edu.cn">lin_yun@sjtu.edu.cn</a></article>
+        <article class="organizer"><a href="https://cuiyungao.github.io/"><img src="images/cuiyun-gao.jpg" alt="Cuiyun Gao" width="128" height="128" loading="lazy"><h3>Cuiyun Gao</h3></a><p>Harbin Institute of Technology,<br>Shenzhen</p><a class="organizer-email" href="mailto:gaocuiyun@hit.edu.cn">gaocuiyun@hit.edu.cn</a></article>
+        <article class="organizer"><a href="https://ligechina.github.io/"><img src="images/ge-li.jpg" alt="Ge Li" width="128" height="128" loading="lazy"><h3>Ge Li</h3></a><p>Peking University</p><a class="organizer-email" href="mailto:lige@pku.edu.cn">lige@pku.edu.cn</a></article>
+      </div>
+    </section>
+
+    <section id="committee">
+      <h2>Program Committee <span class="section-tag">Proposed</span></h2>
+      <p>We propose the following 26 candidates, with expertise spanning requirements, AI-assisted development, testing, verification, and industrial practice, together with software reliability and assurance across the development lifecycle. We will finalize the committee through invitations, maintaining institutional and geographic breadth and matching its size and expertise to submission volume.</p>
+      <p class="committee-note">The following are proposed candidates. Inclusion does not indicate confirmed participation. The confirmed committee will be announced following invitations.</p>
+      <ul class="committee-list">
+        <li><strong>Jane Cleland-Huang</strong>, University of Notre Dame</li>
+        <li><strong>Xin Peng</strong>, Fudan University</li>
+        <li><strong>Bashar Nuseibeh</strong>, City St George&#x27;s, University of London</li>
+        <li><strong>Michael R. Lyu</strong>, The Chinese University of Hong Kong</li>
+        <li><strong>Lin Shi</strong>, Beihang University</li>
+        <li><strong>Fabiano Dalpiaz</strong>, Utrecht University</li>
+        <li><strong>Xin Xia</strong>, Zhejiang University</li>
+        <li><strong>David Lo</strong>, Singapore Management University</li>
+        <li><strong>Alessio Ferrari</strong>, University College Dublin; CNR-ISTI</li>
+        <li><strong>Chang Xu</strong>, Nanjing University</li>
+        <li><strong>Abhik Roychoudhury</strong>, National University of Singapore</li>
+        <li><strong>Andrea Zisman</strong>, The Open University</li>
+        <li><strong>Yingfei Xiong</strong>, Peking University</li>
+        <li><strong>Baishakhi Ray</strong>, Columbia University</li>
+        <li><strong>Fang Liu</strong>, Beihang University</li>
+        <li><strong>Mark Harman</strong>, Meta; University College London</li>
+        <li><strong>Jia Li</strong>, Tsinghua University</li>
+        <li><strong>Lionel C. Briand</strong>, University of Limerick/Lero; University of Ottawa</li>
+        <li><strong>Junjie Chen</strong>, Tianjin University</li>
+        <li><strong>Andreas Zeller</strong>, CISPA</li>
+        <li><strong>Marsha Chechik</strong>, University of Toronto</li>
+        <li><strong>Xiaoyuan Xie</strong>, Wuhan University</li>
+        <li><strong>Lingming Zhang</strong>, University of Illinois Urbana-Champaign</li>
+        <li><strong>Aldeida Aleti</strong>, Monash University</li>
+        <li><strong>Ming Wen</strong>, Huazhong University of Science and Technology</li>
+        <li><strong>Caroline Lemieux</strong>, University of British Columbia</li>
+      </ul>
+    </section>
+
+    <section id="contact">
+      <h2>Contact</h2>
+      <p>For questions about the workshop scope, submissions, or participation, please contact:</p>
+      <p><strong>Yihong Dong</strong><br>School of Computer Science, Shanghai Jiao Tong University<br>Email: <a href="mailto:dongyh@sjtu.edu.cn?subject=RISE%202027%20enquiry">dongyh@sjtu.edu.cn</a></p>
+      <p><strong>Jia Li</strong><br>School of Computer Science, Wuhan University<br>Email: <a href="mailto:jia.li@whu.edu.cn?subject=RISE%202027%20enquiry">jia.li@whu.edu.cn</a></p>
+      <p>Further information about the host conference is available on the <a href="https://conf.researchr.org/home/fse-2027">FSE 2027 website</a>.</p>
+    </section>
+  </main>
+
+  <aside class="sidebar" aria-label="Workshop information">
+    <div class="sidebar-sticky">
+      <section class="sidebar-section" id="dates">
+        <h2>Important Dates</h2>
+        <p class="sidebar-caption">Planned schedule · 2027</p>
+        <dl class="deadline-list"><div><dt>Submission deadline</dt><dd><time datetime="2027-02-11">February 11, 2027</time></dd></div><div><dt>Author notification</dt><dd><time datetime="2027-03-18">March 18, 2027</time></dd></div><div><dt>Camera-ready deadline (hard)</dt><dd><time datetime="2027-04-08">April 8, 2027</time></dd></div><div><dt>Workshop date</dt><dd>July 2027 <span>Date to be confirmed</span></dd></div></dl>
+        <p class="deadline-note">All deadlines are 23:59:59 <strong>Anywhere on Earth (AoE, UTC−12)</strong>. All three archival formats and discussion statements share the submission and notification dates. <strong>April 8, 2027 is the hard camera-ready deadline set by FSE</strong> for all archival formats.</p>
+      </section>
+      <section class="sidebar-section"><h2>Workshop Information</h2><dl class="info-list"><div><dt>Location</dt><dd>Shenzhen, China</dd></div><div><dt>Format</dt><dd>One day, in person (proposed)</dd></div><div><dt>Edition</dt><dd>First workshop</dd></div><div><dt>Submission</dt><dd>Not yet open</dd></div></dl><a class="sidebar-button" href="#cfp">Call for Papers</a></section>
+      <section class="sidebar-section quick-links"><h2>Quick Links</h2><ul><li><a href="https://conf.researchr.org/home/fse-2027">FSE 2027</a></li><li><a href="https://conf.researchr.org/track/fse-2027/fse-2027-workshops">FSE 2027 Workshops</a></li><li><a href="#organizers">Organizing Committee</a></li><li><a href="#committee">Proposed Program Committee</a></li><li><a href="mailto:dongyh@sjtu.edu.cn">Contact the Organizers</a></li></ul></section>
+    </div>
+  </aside>
+</div>
+<footer class="site-footer"><div class="container"><p><strong>RISE 2027</strong> · International Workshop on Reliable Intelligent Software Engineering</p><p>Proposed workshop at FSE 2027 · Last updated: October 14, 2026</p><p class="photo-credit">Banner photograph: <a href="https://commons.wikimedia.org/wiki/File:The_panorama_of_Futian_Shenzhen.jpg">The panorama of Futian Shenzhen</a> by Charlie fong, <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>. Displayed with a crop and color overlay; the banner adaptation is available under the same license. Organizer portraits link to their respective academic profiles.</p></div></footer>
+</body>
+</html>

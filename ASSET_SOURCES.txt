@@ -1,0 +1,49 @@
+Portraits retrieved on 2026-10-14. Original image bytes, no image editing.
+
+yihong-dong.jpg
+Profile: https://www.cs.sjtu.edu.cn/jiaoshiml/dongyihong.html
+Image: https://www.cs.sjtu.edu.cn/upload/image/20260807/20260807164947.jpg
+Identity evidence: Image immediately adjacent to 董益宏 and dongyh@sjtu.edu.cn in SJTU faculty profile.
+Content-Type: image/jpeg
+Bytes: 1345701
+SHA256: 5ad38ad740b0581e718b5bef4f715542575777c14d09efd68264d6990aa268de
+
+jia-li.webp
+Profile: https://conf.researchr.org/profile/jiali4
+Image: https://conf.researchr.org/getProfileImage/jiali4/a4a037b2-206f-4b02-b699-940b188f5b4a/small?1783972039000
+Identity evidence: Profile explicitly names Jia Li, Wuhan University; not Tsinghua namesake.
+Content-Type: image/webp;charset=UTF-8
+Bytes: 20358
+SHA256: 8e15c08a2ed1565b1c63dee1fc9802f8f3eac8c9a4d09afe7fc1c90e2ac95452
+
+yun-lin.png
+Profile: http://linyun.info
+Image: http://linyun.info/images/head.png
+Identity evidence: Personal homepage head portrait.
+Content-Type: image/png
+Bytes: 1133639
+SHA256: 3a218f263eb5dd83fb3c63d264788e712f057e417a25616f33732a28a6e5df67
+
+cuiyun-gao.jpg
+Profile: https://cuiyungao.github.io/
+Image: https://cuiyungao.github.io/images/cuiyun.jpg
+Identity evidence: Personal homepage portrait img id mobile-img.
+Content-Type: image/jpeg
+Bytes: 200046
+SHA256: 213a5642e5333810743de3abbafc85011c7e0b2a94aa09fc0ec30426e2d8f542
+
+ge-li.jpg
+Profile: https://ligechina.github.io/
+Image: https://ligechina.github.io/image/Ge%20Li.jpg
+Identity evidence: Personal homepage CSS mypic background ../image/Ge Li.jpg; profile names Ge Li, Peking University, lige@pku.edu.cn.
+Content-Type: image/jpeg
+Bytes: 39044
+SHA256: 9d7e99ab3d024218c84e776015fc1151bae6ccba235f20c953e35af04fbae5b6
+
+shenzhen-panorama.jpg
+Source: https://commons.wikimedia.org/wiki/File:The_panorama_of_Futian_Shenzhen.jpg
+Original: https://upload.wikimedia.org/wikipedia/commons/8/80/The_panorama_of_Futian_Shenzhen.jpg
+Author: Charlie fong
+License: https://creativecommons.org/licenses/by-sa/4.0/
+Description: Futian district skyline, Shenzhen, photographed 1 January 2021.
+Original image bytes are retained. The CSS display crops the image and overlays a blue translucent layer; this banner adaptation is distributed under CC BY-SA 4.0, with attribution in the page footer.
